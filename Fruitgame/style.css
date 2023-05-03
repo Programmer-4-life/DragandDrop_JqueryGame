@@ -1,0 +1,58 @@
+#Fruits,
+    #fNames {
+        float: left;
+        width: 100%;
+        height: 250px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        background-color: lightgoldenrodyellow;
+
+    }
+
+    #Fruits div,
+    #fNames div {
+        float: left;
+        width: 210px;
+        height: 210px;
+        border: 2px solid darkgray;
+        cursor: pointer;
+        text-align: center;
+        color: cadetblue;
+        font-style: italic;
+        background-color: white;
+        color: cadetblue;
+        font-size: 25px;
+    }
+
+    #Fruits div img,
+    #fNames div img {
+        padding: 5px;
+        border: 5px solid lightgray;
+        background: white;
+
+
+    }
+
+    #Fruits div {
+        z-index: 50;
+    }
+
+    #fNames div {
+        font-size: 35px;
+        line-height: 200px;
+        text-align: center;
+        color: cadetblue;
+        font-style: italic;
+        z-index: 10;
+    }
+    #score_board{
+        float:right;
+        right:100px;
+        font-size:20px;
+        color:burlywood;
+        text-transform: uppercase;
+        position: fixed;
+        top:20px;
+        
+    }
